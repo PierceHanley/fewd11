@@ -1,4 +1,4 @@
-![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
+![GeneralAssemb.ly](img/icons/FEWD_Logo.png)
 
 #FEWD
 ## JavaScript and jQuery
@@ -41,14 +41,14 @@ function thermostat() {
 
 
 ---
-![GeneralAssemb.ly](../../img/icons/code_along.png)
+![GeneralAssemb.ly](img/icons/code_along.png)
 ##Color Switcher
 
 ---
 
 
 
-![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
+![GeneralAssemb.ly](img/icons/exercise_icon_md.png)
 ##JavaScript Traffic Light
 
 ---
@@ -240,12 +240,12 @@ document.getElementById("greetButton")
 
 
 
-![GeneralAssemb.ly](../../img/icons/code_along.png)
+![GeneralAssemb.ly](img/icons/code_along.png)
 ##jQuery Traffic Light
 
 ---
 
-![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
+![GeneralAssemb.ly](img/icons/exercise_icon_md.png)
 ##Syntax Drill  
 
 --
