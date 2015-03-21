@@ -1,4 +1,4 @@
-![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
+![GeneralAssemb.ly](img/icons/FEWD_Logo.png)
 
 ##Introduction to Programming
 
@@ -50,7 +50,7 @@ Tells a computer what to do.
 --
 
 ###Actual code:
-![GeneralAssemb.ly](../../img/code.png)
+![GeneralAssemb.ly](img/code.png)
 
 ---
 
@@ -76,7 +76,7 @@ Simplified code
 
 ###What your brain sees is code:
 
-![GeneralAssemb.ly](../../img/wrist.png)
+![GeneralAssemb.ly](img/wrist.png)
 
 
 ---
@@ -137,7 +137,7 @@ repeat 4 times:
 ---
 
 
-![GeneralAssemb.ly](../../img/icons/code_along.png)
+![GeneralAssemb.ly](img/icons/code_along.png)
 ##Pseudocodealong:
 Write a thermostat program.
 
@@ -198,6 +198,6 @@ if current_temp < desired_temp
 ####Questions?
 ---
 
-![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
+![GeneralAssemb.ly](img/icons/exercise_icon_md.png)
 ##Elevator
 
