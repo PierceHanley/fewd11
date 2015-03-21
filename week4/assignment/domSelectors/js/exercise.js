@@ -1,16 +1,19 @@
+"use strict";
 /**
  * Javascript/jQuery Exercises: Selecting Things In The DOM!
-* Answer the following questions. This practice set gets progressively harder.
-* Remember to test each question, before moving on. Once you're achieved the desired outcome, comment out the code and 
-* move on to the next question.
+ * Answer the following questions. This practice set gets progressively harder.
+ * Remember to test each question, before moving on. Once you're achieved the desired outcome, comment out the code and 
+ * move on to the next question.
  */
 
 
-//SECTION 1: REPLACE THE SECTIONS THAT SAY REPLACE ME WITH THE CORRECT CODE.
+//SECTION 1: REPLACE THE SECTIONS THAT SAY "replaceMe" WITH THE CORRECT CODE.
+
+
 /**
  * Question 1:
- * When, button 1 is clicked, select all paragraphs on the page with jQuery, and changed the color to blue.
- * We've started you off, replace the sec
+ * When button 1 is clicked, select all paragraphs on the page with jQuery,
+ * and change their text color to blue.
  */
  
 	function question1(){
@@ -44,6 +47,8 @@
 
 
 //SECTION 2: Now you are on your own. Write the necessary code to accomplish the following.
+
+
 /**
  * Question 4: 
  * When button 2 is clicked, change the background color of the whole page to "pink"
