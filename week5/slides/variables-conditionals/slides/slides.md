@@ -41,18 +41,18 @@ What are variables?
 
 *	We can tell our program to remember values for us to use later on. 
 
-*	The action of saving a value to memory is called assignment
+*	The action of saving a value to memory is called "assignment".
 
-*	The "name" we use to store the value is called a variable
+*	The "name" we use to store the value is called a **variable**.
 
 ---
 
 
 ##Variables
 
-*	The action of getting the value from a variable is called accessing the variable
+*	The action of getting the value from a variable is called "accessing" the variable.
 
-*	We will use all the above techniques to store values into variables, and generate new values using existing variables
+*	We will use all the above techniques to store values into variables, and generate new values using existing variables.
 
 ---
 
@@ -95,7 +95,7 @@ var age = 21;```
 
 ##Variables & Data Types 
 
-What can you store in a variables?
+What can you store in a variable?
 
 
 Note:
