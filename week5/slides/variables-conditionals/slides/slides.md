@@ -378,15 +378,12 @@ if ("0" == false) { console.log('"0" must be false'); }
 ```
 
 ---
+![GeneralAssemb.ly](img/icons/exercise_icon_md.png)
 
-![GeneralAssemb.ly](img/icons/code_along.png)
 ##Blackout
 
 ---
+![GeneralAssemb.ly](img/icons/FEWD_Logo.png)
 
-![GeneralAssemb.ly](img/icons/exercise_icon_md.png)
-##Temp Converter
-
----
-
-
+##Variables and Conditionals
+Questions?
