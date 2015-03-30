@@ -32,7 +32,7 @@ function greet() {
 ##Calling Functions
 
 ```javascript
-function greet()name) {
+function greet() {
 	alert("Hi, Chris!");
 }```
 **Calling** your function:
@@ -93,7 +93,7 @@ function double(x) {
 ##Returning a value
 Functions don't always *do* something, sometimes they're just a calculation.  Use `return` to give a value back to the caller.
 ```javascript
-function minimum(a, a) {
+function minimum(a, b) {
 	if (a < b) {
 		return a;
 	}
@@ -155,27 +155,4 @@ $("#eye").click(ouch);```
 $("#eye").click(function() {
 	alert("Ouch!");
 });```
-
----
-
-![GeneralAssemb.ly](img/icons/code_along.png)
-##Anonymous Cash Register
-
----
-
-
-![GeneralAssemb.ly](img/icons/exercise_icon_md.png)
-## Temperature Converter
-(from scratch!)
-
---
-
-## Temperature Converter
-###Requirements:
-* Provide two text `<input>` elements:
- * One marked "F" (Fahrenheit)
- * One marked "C" (Celsius)
-* Allow the user to enter a number in either input, and update the *other* input with the converted temperature
- (you may use two separate buttons for this)
-* Bonus credit for automatically updating as soon as the user changes the value!
 
