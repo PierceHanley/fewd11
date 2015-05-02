@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TODO List</title>
+	<link rel="stylesheet" href="css/reset.css" media="screen" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+</head>
+
+<body>
+<!--
+Notice that the HTML here is almost nonexistent. If I didn't have those
+two "default" tasks already in the list, there would be pretty much nothing
+here other than a header, an empty list, and a text input.
+-->
+	<h1>Things to do...</h1>
+	<form id="todo-form">
+	<ol id="tasks">
+		<li class="task"><input type="checkbox" id="task-1" class="task-status"><label for="task-1">Wash dishes</label><button class="delete-task">×</button></li>
+		<li class="task"><input type="checkbox" id="task-2" class="task-status"><label for="task-2">Do laundry</label><button class="delete-task">×</button></li>
+	</ol>
+	<input type="text" id="newTask" name="newTask" placeholder="Add new task">
+	</form>
+	<script src='js/jquery-1.11.2.min.js'></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

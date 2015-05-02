@@ -323,10 +323,3 @@ Very easy to be too clever.
 ![GeneralAssemb.ly](img/icons/exercise_icon_md.png)
 ##GA Application Form
 
-
----
-
-##Validation
-
-*	Use library or simple if/else statements
-*	Parsley.js is an easy library to show off

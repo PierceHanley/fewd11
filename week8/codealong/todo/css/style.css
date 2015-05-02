@@ -1,0 +1,65 @@
+/*
+I've written a few notes below.  Not as many as the JavaScript file,
+obviously; I tend to work on the HTML and JavaScript first and hold
+off perfecting the CSS until the basic features are there, so not as
+much thought went into this.
+*/
+
+body {
+  padding: 10px;
+  background-color: white;
+  font-family: sans-serif;
+  width: 80%;
+}
+
+h1 {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#tasks {
+	width: 200px;
+}
+
+/* hide the checkboxes within the "tasks" list */
+#tasks input[type="checkbox"] {
+	display: none;
+}
+
+.task-status + label::before {
+	display: inline-block;
+	padding: 3px;
+}
+
+/* for any "completed" task, make the label (description) gray */
+.task-status:checked + label {
+	color: gray;
+}
+
+/*
+if the hidden checkbox is "checked", show a green checkmark right
+before the label.  the checkmark here is just a normal character
+that can be copy/pasted; the Unicode standard contains a lot of
+useful things like that.
+*/
+.task-status:checked + label::before {
+	display: inline-block;
+	content: "☑";
+	color: forestgreen;
+}
+
+/*
+if the hidden checkbox is *not* checked, show an empty box.
+*/
+.task-status:not(:checked) + label::before {
+	display: inline-block;
+	content: "☐";
+}
+
+button.delete-task {
+	background-color: transparent;
+	padding: 3px;
+	border: none;
+	float:right;
+}

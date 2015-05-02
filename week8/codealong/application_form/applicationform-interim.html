@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>GA Application Form</title>
+    <!--<link rel="stylesheet" href="css/reset.css" media="screen" type="text/css" />-->
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+</head>
+
+<body>
+
+<h1>Course Application</h1>
+<form id="application-form" action="#" method="get">
+	<div id="contact-info">
+		<fieldset>
+		<h3>Your Contact Info</h3>
+		<div>
+			<label for="firstName">Your Name</label>
+			<input type="text" id="firstName" name="firstName" />
+			<input type="text" name="lastName" />
+		</div>
+		<div>
+			<label for="areaCode">Phone Number</label>
+			<input type="text" id="areaCode" name="areaCode"> -
+			<input type="text" name="phonePrefix"/> -
+			<input type="text" name="phoneSuffix"/>
+		</div>
+		<div>
+			<label for="streetAddress">Address</label>
+			<div><input type="text" id="streetAddress" name="streetAddress" /></div>
+			<div><input type="text" name="addressLine2" /></div>
+			<div>
+				<input type="text" name="city" />
+				<input type="text" name="state" />
+				<input type="text" name="postalCode" />
+			</div>
+		</div>
+		</fieldset>
+	</div>
+
+	<div id="skills-interests">
+		<fieldset>
+		<h3>Skills &amp; Interests</h3>
+		<div>
+			<label for="course">Course</label>
+			<select id="course" name="course">
+				<option disabled selected>Select One</option>
+				<optgroup label="Web Development">
+					<option value="fewd">Front-end</option>
+					<option value="bewd">Back-end</option>
+				</optgroup>
+				<optgroup label="Design">
+					<option value="visd">Visual Design</option>
+					<option value="uxdi">User Experience</option>
+				</optgroup>
+			</select>
+		</div>
+		<div>
+			<label for="pastExperience">Past Experience</label>
+			<textarea name="pastExperience" id="pastExperience"></textarea>
+		</div>
+		</fieldset>
+	</div>
+
+	<div id="anything-else">
+		<fieldset>
+		<h3>Anything Else?</h3>
+		<div>
+			<label for="referral">Referral</label>
+			<select id="referral" name="referral">
+				<option value="none" selected>None</option>
+				<option value="friend">Friend</option>
+				<option value="instructor">Instructor</option>
+				<option value="online">Online</option>
+			</select>
+		</div>
+		<div>
+			<label for="comments">Comments</label>
+			<textarea name="comments" id="comments"></textarea>
+		</div>
+		</fieldset>
+	</div>
+
+	<div>
+		<input type="submit" value="Save Draft" />
+		<input type="submit" value="Submit" />
+	</div>
+</form>
+
+<script src='js/jquery-1.11.2.min.js'></script>
+<script src="js/main.js"></script>
+</body>
+</html>
