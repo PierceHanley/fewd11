@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>GA Application Form</title>
+	<!--<link rel="stylesheet" href="css/reset.css" media="screen" type="text/css" />-->
+	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+</head>
+
+<body>
+
+	<h1>Course Application</h1>
+	<form id="application-form" action="#" method="get">
+		<div id="contact-info">
+			<fieldset>
+				<legend>Your Contact Info</legend>
+				<div>
+					<label for="firstName">Your Name</label>
+					<div class="fieldgroup">
+						<input type="text" id="firstName" name="firstName" placeholder="First"/>
+						<input type="text" name="lastName" placeholder="Last"/>
+					</div>
+				</div>
+				<div>
+					<label for="areaCode">Phone Number</label>
+					<div class="fieldgroup">
+						<input type="text" id="areaCode" name="areaCode" class="phone-part" maxlength="3" placeholder="202"/> -
+						<input type="text" name="phonePrefix" class="phone-part" maxlength="3" placeholder="555"/> -
+						<input type="text" name="phoneSuffix" class="phone-part" maxlength="4" placeholder="1212"/>
+					</div>
+				</div>
+				<div>
+					<label for="streetAddress">Address</label>
+					<div class="fieldgroup address">
+						<div>
+							<input type="text" id="streetAddress" name="streetAddress" class="address-line" placeholder="Street Address"/>
+						</div>
+						<div>
+							<input type="text" name="addressLine2" class="address-line" placeholder="Address Line 2"/>
+						</div>
+						<div>
+							<input type="text" name="city" class="city" placeholder="City"/>
+							<input type="text" name="state" class="state" placeholder="State"/>
+							<input type="text" name="postalCode" class="postal-code" placeholder="Postal Code"/>
+						</div>
+					</div>
+				</div>
+			</fieldset>
+		</div>
+
+		<div id="skills-interests">
+			<fieldset>
+				<legend>Skills &amp; Interests</legend>
+				<div>
+					<label for="course">Course</label>
+					<div class="fieldgroup">
+						<select id="course" name="course">
+							<option disabled selected>Select One</option>
+							<optgroup label="Web Development">
+								<option value="fewd">Front-end</option>
+								<option value="bewd">Back-end</option>
+							</optgroup>
+							<optgroup label="Design">
+								<option value="visd">Visual Design</option>
+								<option value="uxdi">User Experience</option>
+							</optgroup>
+						</select>
+					</div>
+				</div>
+				<div>
+					<label for="pastExperience">Past Experience</label>
+					<div class="fieldgroup">
+						<textarea name="pastExperience" id="pastExperience"></textarea>
+					</div>
+				</div>
+			</fieldset>
+		</div>
+
+		<div id="anything-else">
+			<fieldset>
+				<legend>Anything Else?</legend>
+				<div>
+					<label for="referral">Referral</label>
+					<div class="fieldgroup">
+						<select id="referral" name="referral">
+							<option value="none" selected>None</option>
+							<option value="friend">Friend</option>
+							<option value="instructor">Instructor</option>
+							<option value="online">Online</option>
+						</select>
+					</div>
+				</div>
+				<div>
+					<label for="comments">Comments</label>
+					<div class="fieldgroup">
+						<textarea name="comments" id="comments"></textarea>
+					</div>
+				</div>
+			</fieldset>
+		</div>
+
+		<div>
+			<input type="submit" name="submitButton" value="Save Draft" formaction="save-draft.php"/>
+			<input type="submit" name="submitButton"  value="Submit" formaction="submit-application.php"/>
+		</div>
+	</form>
+
+	<script src='js/jquery-1.11.2.min.js'></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
